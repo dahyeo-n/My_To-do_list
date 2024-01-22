@@ -8,7 +8,7 @@
 ### 내용
 - 사용한 hook: useState
 - 기능 구현을 위해 생성한 함수: `onChangeHandler` , `onSubmitHandler`
-- 사용한 javascript 내장 메서드: `map`, `filter` 입니다.
+- 사용한 javascript 내장 메서드: `map`, `filter`
 - todo의 initial state: `isDone: false}`
 
 
