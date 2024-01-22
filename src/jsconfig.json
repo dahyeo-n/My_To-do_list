@@ -1,9 +1,0 @@
-// 절대경로로 변경하는 코드 [src 폴더 내 모든 파일]
-{
-    "compilerOptions": {
-        "baseUrl": "src"
-    },
-    "include": [
-        "src"
-    ]
-}
