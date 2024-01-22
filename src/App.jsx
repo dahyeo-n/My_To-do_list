@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import Button from "components/button";
-import Todo from "components/Todo";
+import Button from "./components/button";
+import Todo from "./components/Todo";
 
 // - UI 구현
 // - Todo 추가
@@ -86,7 +86,7 @@ const App = () => {
           return !item.isDone ? (<Todo key={item.id} item={item} clickDeleteBtnHandler={clickDeleteBtnHandler} clickCompleteBtnHandler={clickCompleteBtnHandler} />) : null
         })}
 
-        {/* <p>태그는 머가 문제지..? - inline 요소라서 문제 */}
+        {/* <p>태그는 inline 요소라서 <p>태그 안에 <div> 넣으면 에러남*/}
       </div>
       <div><h1>&nbsp;Done!🌟</h1></div>
       <div className="TodoBox-Style">
