@@ -7,7 +7,7 @@
 - 사용한 javascript 내장 메서드: `map`, `filter` 입니다.
 - todo의 initial state: `isDone: false}`
 
-
+# 컴포넌트 분리
 📦src
  ┣ 📂components
  ┃ ┣ 📜button.jsx
