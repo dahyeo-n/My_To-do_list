@@ -21,7 +21,7 @@
 
 .TodoBox-Style {
   background-color: lightgrey;
-  height: 400px;
+  height: 200px;
   /* border: 1px solid lightgrey; */
   border-radius: 5px;
   display: flex;
